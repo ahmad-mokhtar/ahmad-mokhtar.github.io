@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.sfu.ca/math.html'>Simon Fraser University</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Mathematics Dept.</p>
+    <p>Simon Fraser University</p>
+    <p>8888 University Drive</p>
+    <p>Burnaby, BC</p>
+    <p>Canada V5A 1S6</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Algebraic Geometry at Simon Fraser University. I am interested in studying Fano schemes (which parametrize linear spaces on varieties), toric geometry, toric degenerations and computational algebraic geometry.
+I am a Ph.D. student in Algebraic Geometry at Simon Fraser University. I am interested in Fano schemes (which parametrize linear spaces on varieties), toric geometry, toric degenerations and computational algebraic geometry. My Ph.D. advisor is <a href='https://www.sfu.ca/~nilten/'>Nathan Ilten</a>.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
