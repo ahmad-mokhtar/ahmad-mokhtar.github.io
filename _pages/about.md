@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.sfu.ca/math.html'>Simon Fraser University</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Candidate, <a href='https://www.sfu.ca/math.html'>Simon Fraser University</a>
 
 profile:
   align: right
@@ -14,6 +14,8 @@ profile:
     <p>8888 University Drive</p>
     <p>Burnaby, BC</p>
     <p>Canada V5A 1S6</p>
+    <p></p>
+    <p><small>ahmad_mokhtar <b>at</b> sfu <b>dot</b> ca</small></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
