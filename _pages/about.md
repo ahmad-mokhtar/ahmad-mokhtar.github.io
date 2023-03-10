@@ -26,4 +26,4 @@ I am a Ph.D. student in Algebraic Geometry at Simon Fraser University. I am inte
 
 I am co-organizing the SFU graduate student seminar in number theory and algebraic geometry ([gradieNTAG](/gradieNTAG/)) together with Sharon Robins.
 
-In my free time I like to read books, hike and ice skate.
+In my free time I like to read books, hike and ice skate. One of the craziest hike I have done was the <a href='https://www.google.com/maps/search/?api=1&query=statlu+and+brotherhood+lake+trailhead'>Statlu and Brotherhood lake trail</a> in Fraser Valley, BC, Canada. The roundtrip to the upper lake took eleven hours.
