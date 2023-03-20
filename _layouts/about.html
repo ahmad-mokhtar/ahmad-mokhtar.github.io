@@ -52,10 +52,12 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Selected papers -->
+          <!-- Selected talks -->
           {% if page.talks -%}
             <h2><a href="{{ '/talks/' | relative_url }}" style="color: inherit;">talks</a></h2>
             {%- include talks.html %}
+            <h2>posters</h2>
+            {%- include posters.html %}
           {%- endif %}
 
           <!-- Social -->
