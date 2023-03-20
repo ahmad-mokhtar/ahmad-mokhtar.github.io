@@ -17,7 +17,7 @@ talks:
   - title: 27 lines on smooth cubic surfaces
     speaker: Zhe Xu
     time: Thu Mar 23 13:30
-    location: K9509
+    location: TBA
     abstract: |
       In 1849 Arthur Caley and George Salmon proved that there are exactly 27 lines on each cubic smooth surface over an algebraically closed field. In this talk, I will present a modern construction of the arguments to prove this result. We will show that the lines lie on a smooth cubic surface is the vanishing locus of a section of the 3rd symmetric power of the tautological bundle on the Grassmannian of lines in P^3. Towards this goal, we will briefly introduce the Chern classes as degeneracy loci of the general sections, the Schubert cycles, and the Chow Ring.
 
