@@ -14,6 +14,13 @@ headings:
     string: Location
 
 talks:
+  - title: The Tate-Shafarevich group
+    speaker: Emiel Haakma
+    time: Thu Mar 30 13:30
+    location: K9509
+    abstract: |
+      In this talk, I will discuss the definition and motivation behind the mysterious Tate-Shafarevich group, relating to the number of rational points on algebraic curves. Should time allow, I will also share a plan of attack to prove various facts about this group, which does not allow straightforward proofs.
+
   - title: 27 lines on smooth cubic surfaces
     speaker: Zhe Xu
     time: Thu Mar 23 13:30
