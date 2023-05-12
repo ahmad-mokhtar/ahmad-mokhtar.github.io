@@ -14,6 +14,13 @@ headings:
     string: Location
 
 talks:
+  - title: Introduction to Tropical algebraic geometry
+    speaker: Leonardo Montoya
+    time: Thu May 11 13:30
+    location: K9509
+    abstract: |
+      We will define the tropical semiring and see how tropical arithmetic turns polynomials into piecewise linear functions. We will later define tropical hypersurface and the tropicalization of an algebraic hypersurface. Armed with that knowledge we will present the connection between tropical and algebraic geometry, given by the fundamental theorem of tropical algebraic geometry, and finally will then define the tropicalization of an algebraic variety and give a sneak into what information about the variety we can recover from its tropicalization.
+
   - title: The Tate-Shafarevich group
     speaker: Emiel Haakma
     time: Thu Mar 30 13:30
