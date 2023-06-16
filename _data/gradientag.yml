@@ -14,6 +14,13 @@ headings:
     string: Location
 
 talks:
+  - title: Introduction to Intersection Theory
+    speaker: Chi Ki Ngai
+    time: Thu June 1 13:30
+    location: K9509
+    abstract: |
+      Intersection theory concerns about the invariance of intersection of subvarieties under some equivalence relation, for example, Bézout's theorem states that the number of intersection of two plane curves only depends on their degree, and another example is that there is 27 lines on any smooth cubic surface in P^3. In this talk, we will be discussing about rational equivalence, Chow ring, and we will use affine stratification to compute the Chow ring of some simple variety like P^n and P^m×P^n, and then we will use it to give some results. If time allows, we may talk a bit about Chern classes.
+
   - title: Introduction to Tropical algebraic geometry
     speaker: Leonardo Montoya
     time: Thu May 11 13:30
