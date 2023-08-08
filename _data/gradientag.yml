@@ -14,6 +14,29 @@ headings:
     string: Location
 
 talks:
+  - title: Toric analysis of symmetric differentials on A_n singularities
+    speaker: Zhe Xu
+    time: Thu July 13 13:30
+    location: K9509
+    abstract: |
+      Du Val singularities appear in the classification of algebraic surfaces and other areas of algebraic geometry. Wahl’s concept of local Euler characteristics of sheaves helps in describing the properties of these singularities. We consider the sheaf of symmetric differentials and compute one ingredient of the local Euler characteristic: the codimension of those symmetric differentials that extend to the resolution of the singularity in the space of those that are regular around it. Singularities of type A_n can be described with toric varieties. We use Klyachko's theory of toric vector bundles to express this codimension as a lattice point count in a rational polytope. For symmetric differentials of symmetric degree $m$ at A_n-singularities we explicitly determine these polytopes and find expressions for the counts in terms of Ehrhart's quasi-polynomials. We also analyse the behaviour of this quantity as a function of n.
+
+  - title: Curves: Riemann-Roch and Riemann-Hurwitz Theorems
+    speaker: Pijush Pratim Sarmah
+    time: Thu June 29 13:30
+    location: K9509
+    abstract: |
+      Curves are central objects of study in Algebraic and Arithmetic Geometry. An important invariant of a curve is its genus. Two fundamental results related to the genus of a curve are Riemann-Roch Theorem and Riemann-Hurwitz Formula. In this talk, we will look at their statements and apply them to classify all curves of genus less than or equal to two.
+
+
+  - title: Introduction to Cluster Algebra
+    speaker: Karolyn So
+    time: Thu June 22 13:30
+    location: K9509
+    abstract: |
+      Cluster algebra is a class of commutative algebra that encrypts combinatorial data by construction, founded by Sergey Fomin and Andrei Zelevinsky in 2002. In this talk, I will talk about the definition of cluster algebra of geometric type, show the construction from quivers and mutations, its correspondence with matrix mutations, and give some examples of cluster algebra as coordinate rings. I will also show some combinatorial meaning of the exchange relations. If time allows, I will briefly mention the Laurent phenomenon and the finite type classification.
+
+
   - title: Introduction to Intersection Theory
     speaker: Chi Ki Ngai
     time: Thu June 1 13:30
