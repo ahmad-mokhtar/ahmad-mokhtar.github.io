@@ -28,14 +28,12 @@ talks:
     abstract: |
       Curves are central objects of study in Algebraic and Arithmetic Geometry. An important invariant of a curve is its genus. Two fundamental results related to the genus of a curve are Riemann-Roch Theorem and Riemann-Hurwitz Formula. In this talk, we will look at their statements and apply them to classify all curves of genus less than or equal to two.
 
-
   - title: Introduction to Cluster Algebra
     speaker: Karolyn So
     time: Thu June 22 13:30
     location: K9509
     abstract: |
       Cluster algebra is a class of commutative algebra that encrypts combinatorial data by construction, founded by Sergey Fomin and Andrei Zelevinsky in 2002. In this talk, I will talk about the definition of cluster algebra of geometric type, show the construction from quivers and mutations, its correspondence with matrix mutations, and give some examples of cluster algebra as coordinate rings. I will also show some combinatorial meaning of the exchange relations. If time allows, I will briefly mention the Laurent phenomenon and the finite type classification.
-
 
   - title: Introduction to Intersection Theory
     speaker: Chi Ki Ngai
