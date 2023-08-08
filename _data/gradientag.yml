@@ -21,7 +21,7 @@ talks:
     abstract: |
       Du Val singularities appear in the classification of algebraic surfaces and other areas of algebraic geometry. Wahl’s concept of local Euler characteristics of sheaves helps in describing the properties of these singularities. We consider the sheaf of symmetric differentials and compute one ingredient of the local Euler characteristic: the codimension of those symmetric differentials that extend to the resolution of the singularity in the space of those that are regular around it. Singularities of type A_n can be described with toric varieties. We use Klyachko's theory of toric vector bundles to express this codimension as a lattice point count in a rational polytope. For symmetric differentials of symmetric degree $m$ at A_n-singularities we explicitly determine these polytopes and find expressions for the counts in terms of Ehrhart's quasi-polynomials. We also analyse the behaviour of this quantity as a function of n.
 
-  - title: Curves: Riemann-Roch and Riemann-Hurwitz Theorems
+  - title: "Curves: Riemann-Roch and Riemann-Hurwitz Theorems"
     speaker: Pijush Pratim Sarmah
     time: Thu June 29 13:30
     location: K9509
