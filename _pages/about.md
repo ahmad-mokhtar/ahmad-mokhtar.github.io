@@ -25,6 +25,6 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Ph.D. student in Algebraic Geometry at Simon Fraser University. I am interested in Fano schemes (which parametrize linear spaces on varieties), toric geometry, toric degenerations and computational algebraic geometry. My Ph.D. advisor is <a href='https://www.sfu.ca/~nilten/'>Nathan Ilten</a>. Here is my full <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">CV</a>.
 
-I am co-organizing the SFU graduate student seminar in number theory and algebraic geometry (<a href="{{ '/gradieNTAG/' | relative_url }}">gradieNTAG</a>) together with Sharon Robins.
+I am co-organizing the SFU graduate student seminar in number theory and algebraic geometry (<a href="{{ '/gradieNTAG/' | relative_url }}">gradieNTAG</a>) together with <a href='https://sites.google.com/view/sharon-robins'>Sharon Robins</a>.
 
 In my free time I like to read books, hike and ice skate. One of the craziest hikes I have done is the <a href='https://www.google.com/maps/search/?api=1&query=statlu+and+brotherhood+lake+trailhead'>Statlu and Brotherhood lake trail</a> in Fraser Valley, BC, Canada. The roundtrip to the upper lake took eleven hours.

@@ -14,12 +14,12 @@ headings:
     string: Location
 
 talks:
-  - title: Toric analysis of symmetric differentials on A_n singularities
+  - title: Toric analysis of symmetric differentials on \(A_n\) singularities
     speaker: Zhe Xu
     time: Thu July 13 13:30
     location: K9509
     abstract: |
-      Du Val singularities appear in the classification of algebraic surfaces and other areas of algebraic geometry. Wahl’s concept of local Euler characteristics of sheaves helps in describing the properties of these singularities. We consider the sheaf of symmetric differentials and compute one ingredient of the local Euler characteristic: the codimension of those symmetric differentials that extend to the resolution of the singularity in the space of those that are regular around it. Singularities of type A_n can be described with toric varieties. We use Klyachko's theory of toric vector bundles to express this codimension as a lattice point count in a rational polytope. For symmetric differentials of symmetric degree $m$ at A_n-singularities we explicitly determine these polytopes and find expressions for the counts in terms of Ehrhart's quasi-polynomials. We also analyse the behaviour of this quantity as a function of n.
+      Du Val singularities appear in the classification of algebraic surfaces and other areas of algebraic geometry. Wahl’s concept of local Euler characteristics of sheaves helps in describing the properties of these singularities. We consider the sheaf of symmetric differentials and compute one ingredient of the local Euler characteristic: the codimension of those symmetric differentials that extend to the resolution of the singularity in the space of those that are regular around it. Singularities of type \(A_n\) can be described with toric varieties. We use Klyachko's theory of toric vector bundles to express this codimension as a lattice point count in a rational polytope. For symmetric differentials of symmetric degree \(m\) at \(A_n\)-singularities we explicitly determine these polytopes and find expressions for the counts in terms of Ehrhart's quasi-polynomials. We also analyse the behaviour of this quantity as a function of \(n\).
 
   - title: "Curves: Riemann-Roch and Riemann-Hurwitz Theorems"
     speaker: Pijush Pratim Sarmah
@@ -40,7 +40,7 @@ talks:
     time: Thu June 1 13:30
     location: K9509
     abstract: |
-      Intersection theory concerns about the invariance of intersection of subvarieties under some equivalence relation, for example, Bézout's theorem states that the number of intersection of two plane curves only depends on their degree, and another example is that there is 27 lines on any smooth cubic surface in P^3. In this talk, we will be discussing about rational equivalence, Chow ring, and we will use affine stratification to compute the Chow ring of some simple variety like P^n and P^m×P^n, and then we will use it to give some results. If time allows, we may talk a bit about Chern classes.
+      Intersection theory concerns about the invariance of intersection of subvarieties under some equivalence relation, for example, Bézout's theorem states that the number of intersection of two plane curves only depends on their degree, and another example is that there is 27 lines on any smooth cubic surface in \(\mathbb{P}^3\). In this talk, we will be discussing about rational equivalence, Chow ring, and we will use affine stratification to compute the Chow ring of some simple variety like \(\mathbb{P}^n\) and \(\mathbb{P}^m\times \mathbb{P}^n\), and then we will use it to give some results. If time allows, we may talk a bit about Chern classes.
 
   - title: Introduction to Tropical algebraic geometry
     speaker: Leonardo Montoya
@@ -61,14 +61,14 @@ talks:
     time: Thu Mar 23 13:30
     location: AQ5009
     abstract: |
-      In 1849 Arthur Caley and George Salmon proved that there are exactly 27 lines on each cubic smooth surface over an algebraically closed field. In this talk, I will present a modern construction of the arguments to prove this result. We will show that the lines lie on a smooth cubic surface is the vanishing locus of a section of the 3rd symmetric power of the tautological bundle on the Grassmannian of lines in P^3. Towards this goal, we will briefly introduce the Chern classes as degeneracy loci of the general sections, the Schubert cycles, and the Chow Ring.
+      In 1849 Arthur Caley and George Salmon proved that there are exactly 27 lines on each cubic smooth surface over an algebraically closed field. In this talk, I will present a modern construction of the arguments to prove this result. We will show that the lines lie on a smooth cubic surface is the vanishing locus of a section of the 3rd symmetric power of the tautological bundle on the Grassmannian of lines in \(\mathbb{P}^3\). Towards this goal, we will briefly introduce the Chern classes as degeneracy loci of the general sections, the Schubert cycles, and the Chow Ring.
 
   - title: Geometric invariant theory (GIT) quotients
     speaker: David Sun
     time: Thu Mar 2 13:30
     location: K9509
 
-  - title: A<sub>∞</sub>-algebras
+  - title: \(A_\infty\)-algebras
     speaker: Carl Waller
     time: Thu Feb 16 13:30
     location: K9509
