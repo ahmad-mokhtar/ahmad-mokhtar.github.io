@@ -4,7 +4,7 @@ permalink: /gradieNTAG/
 title: gradieNTAG
 description: the SFU graduate student seminar in number theory and algebraic geometry (gradieNTAG)
 nav: true
-nav_order: 3
+nav_order: 4
 custom_header: true
 header_title: ∇NTAG
 ---
