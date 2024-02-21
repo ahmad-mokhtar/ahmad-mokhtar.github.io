@@ -35,12 +35,12 @@ talks:
     abstract: |
       TBD
 
-  - title: Geometric vertex decomposition: introduction and connections
+  - title: "Geometric vertex decomposition: introduction and connections"
     speaker: Mike Cummings
     time: Wed Feb 28 15:45
     location: Zoom
     abstract: |
-      A nice family of simplicial complexes is those that are vertex decomposable as, for instance, their Stanley--Reisner ideals are Cohen-Macaulay.  Meanwhile, and seemingly completely unrelated, the theory of Gorenstein liaison can loosely be understood as studying ideals under an equivalence relation of being "linked" via a Gorenstein ideal.
+      A nice family of simplicial complexes is those that are vertex decomposable as, for instance, their Stanley-Reisner ideals are Cohen-Macaulay.  Meanwhile, and seemingly completely unrelated, the theory of Gorenstein liaison can loosely be understood as studying ideals under an equivalence relation of being "linked" via a Gorenstein ideal.
       In this talk, we will discuss geometric vertex decomposition, a degeneration technique that gives both an ideal-theoretic generalization of vertex decomposability and a more computationally-friendly tool for computing Gorenstein links.  This will shine a light on the connection between vertex decomposability and Gorenstein liaison.  We will also talk about nice consequences for ideals that are geometrically vertex decomposable and give some examples of families of ideals that posses this property.
 
   - title: Toric analysis of symmetric differentials on \(A_n\) singularities
