@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-Here you can find the package(s) I have developed for computer algebra systems.
+Here you can find some of the packages I have developed for computer algebra systems.
 
 ### MAGMA
 ---
