@@ -2,18 +2,18 @@
 //Updated: Feb 26, 2024
 
 /** MagDoc
-*FanoScheme is a package in MAGMA for computation with Fano schemes of embedded projective varieties.
-*Let $X\subset \mathbb{P}^n$ be an embedded projective variety.
-*Then the Fano scheme $\mathbf{F}_k (X)$ of $k$-planes in $X$ is the fine moduli space that parametrizes those $k$-planes contained in $X$.
-*The scheme $\mathbf{F}_k (X)$ is a subscheme of the Grassmannian $\mathbb{G}(k,n)$.
-*
-*Moreover, a Grassmannian $\mathbb{G}(k,n)$ is the same as the Fano scheme $\mathbf{F}_k(\mathbb{P}^n)$.
+FanoScheme is a package in MAGMA for computation with Fano schemes of embedded projective varieties.
+Let $X\subset \mathbb{P}^n$ be an embedded projective variety.
+Then the Fano scheme $\mathbf{F}_k (X)$ of $k$-planes in $X$ is the fine moduli space that parametrizes those $k$-planes contained in $X$.
+The scheme $\mathbf{F}_k (X)$ is a subscheme of the Grassmannian $\mathbb{G}(k,n)$.
+
+Moreover, a Grassmannian $\mathbb{G}(k,n)$ is the same as the Fano scheme $\mathbf{F}_k(\mathbb{P}^n)$.
 */
 
 intrinsic FanoScheme(X::Sch , k::RngIntElt , grassAmbient::Prj) -> Sch
 {This intrinsic returns the fano scheme F_k(X) as a subscheme of a Grassmannian Gr(k, r) embedded in the projective space grassAmbient. The dimension of grassAmbient should be equal to Binomial(r+1,k+1) where r is the dimension of the ambient projective space of X. The returned Fano scheme is a subscheme of grassAmbient.}
 /** MagDoc
-*Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in the projective space `grassAmbient`. The dimension of `grassAmbient` should be equal to $\binom{r+1}{k+1}$ where $r$ is the dimension of the ambient projective space of $X$. The returned Fano scheme is a subscheme of `grassAmbient`.
+Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in the projective space `grassAmbient`. The dimension of `grassAmbient` should be equal to $\binom{r+1}{k+1}$ where $r$ is the dimension of the ambient projective space of $X$. The returned Fano scheme is a subscheme of `grassAmbient`.
 */
 
 //making sure X is a projective space
@@ -75,7 +75,7 @@ end intrinsic;
 intrinsic FanoScheme(X::Sch , k::RngIntElt) -> Sch
 {This intrinsic returns the fano scheme F_k(X) as a subscheme of a Grassmannian Gr(k, r) embedded in a projective space grassAmbient containing Gr(k,r). The returned scheme is a subschem of grassAmbient.}
 /** MagDoc
-*Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in a projective space containing $\mathbb{G}(k, r)$. It creates a projective space `ambientSpace` of dimension $\binom{r+1}{k+1}$ and then calls `FanoScheme(X, k, grassAmbient)`.
+Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in a projective space containing $\mathbb{G}(k, r)$. It creates a projective space `ambientSpace` of dimension $\binom{r+1}{k+1}$ and then calls `FanoScheme(X, k, grassAmbient)`.
 */
 
 //Creating the projective space grassAmbient with the correct dimension.
@@ -158,6 +158,9 @@ The smooth quadric $X\subset \mathbb{P}^3$ defined by $xy-zw=0$  has two disjoin
 
 intrinsic Grassmannian(k::RngIntElt, n::RngIntElt, grassAmbient::Prj) -> Sch
 {This intrinsic returns a Grassmannian Gr(k,n) of k-planes in an n-projective space P by calling FanoScheme on P. The returned Grassmannian is a subscheme of the ambient projective space grassAmbient which must have dimension Binomial(n+1,k+1)-1.}
+/** MagDoc
+Returns the Grassmannian $\mathbb{G}(k, r)$ of $k$-planes in an $n$-projective space $P$. It works by calling `FanoScheme(P, k, grassAmbient)`. The returned Grassmannian is a subscheme of the ambient projective space `grassAmbient` which must have dimension $\binom{n+1}{k+1}-1$, otherwise an error occurs.
+*/
 
 //creating a projective space of dimension n and returning its Fano scheme of k-planes which is the Grassmannian Gr(k,n).
 KK:=BaseRing(CoordinateRing(grassAmbient));
@@ -168,6 +171,9 @@ end intrinsic;
 
 intrinsic Grassmannian(k::RngIntElt, P::Prj) -> Sch
 {This intrinsic returns a Grassmannian Gr(k,P) of k-planes in the n-projective space P by computing the Fano scheme of k planes in P. The returned Grassmannian is a subscheme of an ambient projective space of dimension Binomial(n+1,k+1)-1.}
+/** MagDoc
+Returns the Grassmannian $\mathbb{G}(k,P)$ of $k$-planes in the $n$-projective space $P$ by calling `FanoScheme(P, k)`. The returned Grassmannian is a subscheme of an ambient projective space of dimension $\binom{n+1}{k+1}-1$.
+*/
 
 return FanoScheme(P, k);
 
@@ -175,6 +181,9 @@ end intrinsic;
 
 intrinsic Grassmannian(k::RngIntElt, P::Prj, grassAmbient::Prj) -> Sch
 {This intrinsic returns a Grassmannian Gr(k,P) of k-planes in the n-projective space P by computing the Fano scheme of k planes in P. The returned Grassmannian is a subscheme of the ambient projective space grassAmbient which must have dimension Binomial(n+1,k+1)-1.}
+/**
+Returns the Grassmannian $\mathbb{G}(k,P)$ of $k$-planes in the $n$-projective space $P$ by calling `FanoScheme(P, k, grassAmbient)`. The returned Grassmannian is a subscheme of the ambient projective space `grassAmbient` which must have dimension $\binom{n+1}{k+1}-1$, otherwise an error occurs.
+*/
 
 return FanoScheme(P, k, grassAmbient);
 
