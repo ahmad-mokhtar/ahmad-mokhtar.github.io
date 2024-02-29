@@ -366,15 +366,25 @@ The scheme \(\mathbf{F}_k (X)\) is a subscheme of the Grassmannian \(\mathbb{G}(
 
 <p>Moreover, a Grassmannian \(\mathbb{G}(k,n)\) is the same as the Fano scheme \(\mathbf{F}_k(\mathbb{P}^n)\).</p>
 
-<hr>
+<h2 id="toc_1">List of intrinsics</h2>
 
-<p><intrinsic>FanoScheme(X, k, grassAmbient) : Sch,RngIntElt,Prj -&gt; Sch</intrinsic></p>
+<p><a href="#intrinsic-1"><intrinsic>FanoScheme(X, k, grassAmbient) : Sch,RngIntElt,Prj -&gt; Sch</intrinsic></a><br>
+<a href="#intrinsic-2"><intrinsic>FanoScheme(X , k) : Sch,RngIntElt -&gt; Sch</intrinsic></a><br>
+<a href="#intrinsic-3"><intrinsic>Grassmannian(k, n, grassAmbient) : RngIntElt,RngIntElt,Prj -&gt; Sch</intrinsic></a><br>
+<a href="#intrinsic-4"><intrinsic>Grassmannian(k, P) : RngIntElt,Prj -&gt; Sch</intrinsic></a><br>
+<a href="#intrinsic-5"><intrinsic>Grassmannian(k, P, grassAmbient) : RngIntElt,Prj,Prj -&gt; Sch</intrinsic></a>  </p>
+
+<h2 id="toc_2">Description</h2>
+
+<p><a name="intrinsic-1"></a>
+<intrinsic>FanoScheme(X, k, grassAmbient) : Sch,RngIntElt,Prj -&gt; Sch</intrinsic></p>
 
 <p>Returns the Fano scheme \(\mathbf{F}_k(X)\) as a subscheme of a Grassmannian \(\mathbb{G}(k, r)\) embedded in the projective space <code>grassAmbient</code>. The dimension of <code>grassAmbient</code> should be equal to \(\binom{r+1}{k+1}\) where \(r\) is the dimension of the ambient projective space of \(X\). The returned Fano scheme is a subscheme of <code>grassAmbient</code>.</p>
 
 <hr>
 
-<p><intrinsic>FanoScheme(X , k) : Sch,RngIntElt -&gt; Sch</intrinsic></p>
+<p><a name="intrinsic-2"></a>
+<intrinsic>FanoScheme(X , k) : Sch,RngIntElt -&gt; Sch</intrinsic></p>
 
 <p>Returns the Fano scheme \(\mathbf{F}_k(X)\) as a subscheme of a Grassmannian \(\mathbb{G}(k, r)\) embedded in a projective space containing \(\mathbb{G}(k, r)\). It creates a projective space <code>ambientSpace</code> of dimension \(\binom{r+1}{k+1}\) and then calls <code>FanoScheme(X, k, grassAmbient)</code>.</p>
 
@@ -445,19 +455,22 @@ Degree of component = 2
 
 <hr>
 
-<p><intrinsic>Grassmannian(k, n, grassAmbient) : RngIntElt,RngIntElt,Prj -&gt; Sch</intrinsic></p>
+<p><a name="intrinsic-3"></a>
+<intrinsic>Grassmannian(k, n, grassAmbient) : RngIntElt,RngIntElt,Prj -&gt; Sch</intrinsic></p>
 
 <p>Returns the Grassmannian \(\mathbb{G}(k, r)\) of \(k\)-planes in an \(n\)-projective space \(P\). It works by calling <code>FanoScheme(P, k, grassAmbient)</code>. The returned Grassmannian is a subscheme of the ambient projective space <code>grassAmbient</code> which must have dimension \(\binom{n+1}{k+1}-1\), otherwise an error occurs.</p>
 
 <hr>
 
-<p><intrinsic>Grassmannian(k, P) : RngIntElt,Prj -&gt; Sch</intrinsic></p>
+<p><a name="intrinsic-4"></a>
+<intrinsic>Grassmannian(k, P) : RngIntElt,Prj -&gt; Sch</intrinsic></p>
 
 <p>Returns the Grassmannian \(\mathbb{G}(k,P)\) of \(k\)-planes in the \(n\)-projective space \(P\) by calling <code>FanoScheme(P, k)</code>. The returned Grassmannian is a subscheme of an ambient projective space of dimension \(\binom{n+1}{k+1}-1\).</p>
 
 <hr>
 
-<p><intrinsic>Grassmannian(k, P, grassAmbient) : RngIntElt,Prj,Prj -&gt; Sch</intrinsic></p>
+<p><a name="intrinsic-5"></a>
+<intrinsic>Grassmannian(k, P, grassAmbient) : RngIntElt,Prj,Prj -&gt; Sch</intrinsic></p>
 
 <p>Returns the Grassmannian \(\mathbb{G}(k,P)\) of \(k\)-planes in the \(n\)-projective space \(P\) by calling <code>FanoScheme(P, k, grassAmbient)</code>. The returned Grassmannian is a subscheme of the ambient projective space <code>grassAmbient</code> which must have dimension \(\binom{n+1}{k+1}-1\), otherwise an error occurs.</p>
 
