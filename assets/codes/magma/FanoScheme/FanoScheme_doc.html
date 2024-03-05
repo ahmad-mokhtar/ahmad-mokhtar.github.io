@@ -379,14 +379,14 @@ The scheme \(\mathbf{F}_k (X)\) is a subscheme of the Grassmannian \(\mathbb{G}(
 <p><a name="intrinsic-1"></a>
 <intrinsic>FanoScheme(X, k, grassAmbient) : Sch,RngIntElt,Prj -&gt; Sch</intrinsic></p>
 
-<p>Returns the Fano scheme \(\mathbf{F}_k(X)\) as a subscheme of a Grassmannian \(\mathbb{G}(k, r)\) embedded in the projective space <code>grassAmbient</code>. The dimension of <code>grassAmbient</code> should be equal to \(\binom{r+1}{k+1}\) where \(r\) is the dimension of the ambient projective space of \(X\). The returned Fano scheme is a subscheme of <code>grassAmbient</code>.</p>
+<p>Returns the Fano scheme \(\mathbf{F}_k(X)\) as a subscheme of a Grassmannian \(\mathbb{G}(k, r)\) embedded in the projective space <code>grassAmbient</code>. The dimension of <code>grassAmbient</code> must be equal to \(\binom{r+1}{k+1}\) where \(r\) is the dimension of the ambient projective space of \(X\), otherwise an error occurs. The returned Fano scheme is a subscheme of <code>grassAmbient</code>.</p>
 
 <hr>
 
 <p><a name="intrinsic-2"></a>
 <intrinsic>FanoScheme(X , k) : Sch,RngIntElt -&gt; Sch</intrinsic></p>
 
-<p>Returns the Fano scheme \(\mathbf{F}_k(X)\) as a subscheme of a Grassmannian \(\mathbb{G}(k, r)\) embedded in a projective space containing \(\mathbb{G}(k, r)\). It creates a projective space <code>ambientSpace</code> of dimension \(\binom{r+1}{k+1}\) and then calls <code>FanoScheme(X, k, grassAmbient)</code>.</p>
+<p>Returns the Fano scheme \(\mathbf{F}_k(X)\) as a subscheme of a Grassmannian \(\mathbb{G}(k, r)\) embedded in a projective space of dimension \(\binom{r+1}{k+1}\). It creates a projective space <code>ambientSpace</code> of dimension \(\binom{r+1}{k+1}\) and then calls <code>FanoScheme(X, k, grassAmbient)</code>.</p>
 
 <blockquote>
 <p><strong>Example 1</strong> : The famous Cayley-Salmon theorem asserts that a smooth cubic surface in \(\mathbb{P}^3\) contains exactly 27 lines. We will use <code>FanoScheme</code> to demonstrate the theorem.</p>
@@ -475,7 +475,7 @@ Degree of component = 2
 <p>Returns the Grassmannian \(\mathbb{G}(k,P)\) of \(k\)-planes in the \(n\)-projective space \(P\) by calling <code>FanoScheme(P, k, grassAmbient)</code>. The returned Grassmannian is a subscheme of the ambient projective space <code>grassAmbient</code> which must have dimension \(\binom{n+1}{k+1}-1\), otherwise an error occurs.</p>
 
 <blockquote>
-<p><strong>Example 3</strong> : We create the Grassmannian \(\mathbb{G}(1,3)\) and display its plücker relation.</p>
+<p><strong>Example 3</strong> : We create the Grassmannian \(\mathbb{G}(1,3)\) and display its Plücker relation.</p>
 
 <div><pre><code class="language-none">&gt; KK:=Rationals();
 &gt; KK;

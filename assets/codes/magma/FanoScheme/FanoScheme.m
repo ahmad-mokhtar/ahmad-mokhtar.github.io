@@ -13,7 +13,7 @@ Moreover, a Grassmannian $\mathbb{G}(k,n)$ is the same as the Fano scheme $\math
 intrinsic FanoScheme(X::Sch , k::RngIntElt , grassAmbient::Prj) -> Sch
 {This intrinsic returns the fano scheme F_k(X) as a subscheme of a Grassmannian Gr(k, r) embedded in the projective space grassAmbient. The dimension of grassAmbient should be equal to Binomial(r+1,k+1) where r is the dimension of the ambient projective space of X. The returned Fano scheme is a subscheme of grassAmbient.}
 /** MagDoc
-Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in the projective space `grassAmbient`. The dimension of `grassAmbient` should be equal to $\binom{r+1}{k+1}$ where $r$ is the dimension of the ambient projective space of $X$. The returned Fano scheme is a subscheme of `grassAmbient`.
+Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in the projective space `grassAmbient`. The dimension of `grassAmbient` must be equal to $\binom{r+1}{k+1}$ where $r$ is the dimension of the ambient projective space of $X$, otherwise an error occurs. The returned Fano scheme is a subscheme of `grassAmbient`.
 */
 
 //making sure X is a projective space
@@ -75,7 +75,7 @@ end intrinsic;
 intrinsic FanoScheme(X::Sch , k::RngIntElt) -> Sch
 {This intrinsic returns the fano scheme F_k(X) as a subscheme of a Grassmannian Gr(k, r) embedded in a projective space grassAmbient containing Gr(k,r). The returned scheme is a subschem of grassAmbient.}
 /** MagDoc
-Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in a projective space containing $\mathbb{G}(k, r)$. It creates a projective space `ambientSpace` of dimension $\binom{r+1}{k+1}$ and then calls `FanoScheme(X, k, grassAmbient)`.
+Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mathbb{G}(k, r)$ embedded in a projective space of dimension $\binom{r+1}{k+1}$. It creates a projective space `ambientSpace` of dimension $\binom{r+1}{k+1}$ and then calls `FanoScheme(X, k, grassAmbient)`.
 */
 
 //Creating the projective space grassAmbient with the correct dimension.
@@ -190,7 +190,7 @@ return FanoScheme(P, k, grassAmbient);
 end intrinsic;
 
 /** MagDoc Example
-We create the Grassmannian $\mathbb{G}(1,3)$ and display its plücker relation.
+We create the Grassmannian $\mathbb{G}(1,3)$ and display its Plücker relation.
 
      > KK:=Rationals();
      > KK;
