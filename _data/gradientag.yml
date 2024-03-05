@@ -28,12 +28,14 @@ talks:
     abstract: |
       TBD
 
-  - title: TBD
+  - title: Plücker inequalities for weakly separated coordinates in totally nonnegative Grassmannian
     speaker: Prateek Vishwakarma
     time: Wed Mar 6 15:45
     location: Zoom
     abstract: |
-      TBD
+      We show that the partial sums of the long Plücker relations for pairs of weakly separated Plücker coordinates oscillate around 0 on the totally nonnegative part of the Grassmannian. Our result generalizes the classical oscillating inequalities by Gantmacher--Krein (1941) and recent results on totally nonnegative matrix inequalities by Fallat--Vishwakarma (2023). In fact we obtain a characterization of weak separability, by showing that no other pair of Plücker coordinates satisfies this property.  
+      Weakly separated sets were initially introduced by Leclerc and Zelevinsky and are closely connected with the cluster algebra of the Grassmannian. Moreover, our work connects several fundamental objects such as weak separability, Temperley--Lieb immanants, and Plücker relations, and provides a very general and natural class of additive determinantal inequalities on the totally nonnegative part of the Grassmannian.
+      We shall begin the talk with the introduction of totally nonnegative matrices and see its important connection with planar networks. Then we shall review some classical results related to the topic to continue further with the more recent discovery. The talk will (mostly) be self-contained.
 
   - title: "Geometric vertex decomposition: introduction and connections"
     speaker: Mike Cummings
