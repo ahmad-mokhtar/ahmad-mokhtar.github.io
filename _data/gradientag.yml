@@ -21,12 +21,12 @@ talks:
     abstract: |
       TBD
 
-  - title: TBD
+  - title: The Chow Ring Classes of \(\mathrm{PGL}_3\) Orbit Closures in \(\mathbb{G}(1,5)\)
     speaker: Dhruv Goel
     time: Wed Apr 3 15:45
     location: Zoom
     abstract: |
-      TBD
+      The complete linear system \(\mathbb{P}H^0(\mathcal{O}_{\mathbb{P}^n}(2))\cong \mathbb{P}^{n(n+3)/2}\) of quadrics in \(\mathbb{P}^n\) admits a natural action by \(\mathrm{PGL}_{n+1}\), and hence so does the Grassmannian \(\mathbb{G}(d, n(n+3)/2)\) parametrizing linear systems of quadrics of dimension \(d\) for \(0\leq d\leq n(n+3)/2\). We can study the orbits of this action—\(d\)-dimensional linear systems of quadrics in \(\mathbb{P}^n\) up to changes of coordinates—using techniques from intersection theory such as Chow rings and Chern classes. The study of the case \(d=1\)--of pencils of quadrics--goes back to the work of Segre from the 1850's. In 1906, Jordan showed that when \(n=2\) and \(d=1\), this action has exactly 8 orbits. We will examine this case in detail, studying the Hasse poset of orbit closures and computing their Chow ring classes in the Chow ring of the Grassmannian. Characters in this beautiful story will include the Cayley cubic surface, the catalecticant of a binary quartic form, and generically nonreduced components in Fano schemes. We will end by mentioning possible extensions of these results and techniques to higher \(n\) and \(d\), which is part of joint work with Mokhtar currently in progress. (Potential collaborators are very welcome!)
 
   - title: Plücker inequalities for weakly separated coordinates in totally nonnegative Grassmannian
     speaker: Prateek Vishwakarma
