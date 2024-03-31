@@ -18,7 +18,7 @@ Returns the Fano scheme $\mathbf{F}_k(X)$ as a subscheme of a Grassmannian $\mat
 
 //making sure X is a projective space
 if not(IsProjective(X)) then
-   error "The scheme X is must be projective:", Error(X);
+   error "The scheme X must be projective:", Error(X);
 end if;
 
 P:=AmbientSpace(X); //P is the projective space in which X is embedded
@@ -37,14 +37,14 @@ else
 end if;
 
 
-//S is the homogenous coordinate ring of a generic k-plane in P. It has (k+1) coordinates s_0,..,s_k for the k-plane (stored in LinSpaceVariables) as well as n*(k+1) coordinates p_j0,...,p_jn (1<=j<=k+1) for k+1 points in P.
+//S is the homogenous coordinate ring of a generic k-plane in P. It has (k+1) coordinates s_1,..,s_(k+1) for the k-plane (stored in LinSpaceVariables) as well as n*(k+1) coordinates p_j1,...,p_jn (1<=j<=k+1) for k+1 points in P.
 S:=PolynomialRing(KK,(k+1)*(n+1));
 LinSpaceVariables:=[S.i: i in {1..k+1}];
 
 
-genericLineCoordinates:=[&+[LinSpaceVariables[j]*S.(k+1+i+(j-1)*n): j in {1..k+1}]: i in {1..n}];
-F:=hom <R -> S | genericLineCoordinates>;
-J:=Extension(F, DefiningIdeal(X)); //J is the ideal of those lines that lie on X
+genericLinCoordinates:=[&+[LinSpaceVariables[j]*S.(k+1+i+(j-1)*n): j in {1..k+1}]: i in {1..n}];
+F:=hom <R -> S | genericLinCoordinates>;
+J:=Extension(F, DefiningIdeal(X)); //J is the ideal of those k-planes that lie on X
 
 //The ideal J has equations in the coordinates of a generic k-plane s_i and p_jl. The Fano scheme is defined by the vanishing of these polynomials for all values of s_i. We extract the coefficient of the variables s_i which are polynomials in the p_jl.
 coeffList := Basis(J);
@@ -181,7 +181,7 @@ end intrinsic;
 
 intrinsic Grassmannian(k::RngIntElt, P::Prj, grassAmbient::Prj) -> Sch
 {This intrinsic returns a Grassmannian Gr(k,P) of k-planes in the n-projective space P by computing the Fano scheme of k planes in P. The returned Grassmannian is a subscheme of the ambient projective space grassAmbient which must have dimension Binomial(n+1,k+1)-1.}
-/**
+/** MagDoc
 Returns the Grassmannian $\mathbb{G}(k,P)$ of $k$-planes in the $n$-projective space $P$ by calling `FanoScheme(P, k, grassAmbient)`. The returned Grassmannian is a subscheme of the ambient projective space `grassAmbient` which must have dimension $\binom{n+1}{k+1}-1$, otherwise an error occurs.
 */
 
