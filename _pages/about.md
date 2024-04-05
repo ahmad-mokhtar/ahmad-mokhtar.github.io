@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate, <a href='https://www.sfu.ca/math.html'>Simon Fraser U
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic2.png
   image_circular: false # crops the image to make it circular
   address: >
     <p>Mathematics Dept.</p>
