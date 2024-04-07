@@ -1,97 +1,126 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Name
-      value: Ahmad Mokhtar
-    - name: Affiliation
-      value: Simon Fraser University
-    - name: Languages
-      value: English, Farsi, French
+person:
+  position: Gradfuate Student and Sessional Instructor
+  affiliation: Simon Fraser University
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+data:
+  - title: Positions
+    type: time_table
+    contents:
+      - title: Sessional instructor
+        institution: Simon Fraser University, Canada
+        year: 2024
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+  - title: Education
+    type: time_table
+    contents:
+      - title: Ph.D. in Mathematics
+        institution: Simon Fraser University, Canada
+        year: 2020 - current
+        description:
+          - "Field: Algebraic Geometry"
+          - "Supervisor: Dr. Nathan Ilten"
+      - title: M.Sc. in Mathematics
+        institution: Simon Fraser University, Canada
+        year: 2018 - 2020
+        description:
+          - |
+             M.Sc. Thesis: Toric degenerations of rational curves of degree \(n + 2\) in \(\mathbb{P}^n\)
+          - "Supervisor: Dr. Nathan Ilten"
+      - title: M.Sc. in Mathematics
+        institution:  Shiraz University, Shiraz, Iran
+        year: 2016 - 2018
+        description:
+          - "Field: Coding Theory"
+          - "Supervisor: Dr. Shohreh Namazi"
+      - title: B.Sc. in Electrical Engineering
+        institution: Shiraz University, Shiraz, Iran
+        year: 2007 - 2011
+        description:
+          - "Field: Telecommunications"
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+  - title: Interests
+    type: list
+    contents:
+      - Algebraic geometry, Fano schemes, Toric degenerations, Computational algebraic geometry
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+  - title: Publications
+    type: time_table
+    contents:
+      - title: Fano schemes of symmetric matrices of bounded rank (submitted)
+        year: 2023
+      - title: Khovanskii-Finite Rational Curves of Arithmetic Genus 2
+        journal: Michigan Math. J.
+        coauthors: Nathan Ilten
+        year: 2023
+      - title: Perfect quantum state transfer on the Johnson scheme
+        journal: Linear Algebra and its Applications
+        coauthors: Bahman Ahmadi and M. H. Shirdareh Haghighi
+        year: 2020
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+  - title: Awards
+    type: time_table
+    contents:
+      - title: SFU Graduate Dean’s Entrance Scholarship
+        year: 2018-2022        
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+  - title: Honors
+    type: time_table
+    contents:
+      - title: The certificate “With Distinction” for Master’s thesis, Simon Fraser University
+        year: 2020
+      - title: First rank in GPA in M.Sc among co-entry students, Shiraz University
+        year: 2018
+      - title: 21st rank in Iran’s National University Entrance Exam for Graduate Studies in Math
+        year: 2014
+      - title: First rank in GPA in M.Sc among co-entry students, Shiraz University
+        year: 2011
+      - title: 18th rank in Iran’s National Olympiad in Electrical Engineering
+        year: 2010
+      - title: First rank in Iran’s National Programming Contest for high school students
+        year: 2006
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+  - title: Talks
+    type: time_table
+    contents:
+      - title: Khovanskii-finite rational curves of arithmetic genus 2
+        institution: SIAM Conference on Applied Algebraic Geometry (AG23), Eindhoven University of Technology
+        year:  Jul 2023
+      - title: Fano schemes of singular symmetric matrices
+        institution: University of British Columbia AG seminar
+        year: Mar 2023
+      - title: Fano schemes of singular symmetric matrices
+        institution: Simon Fraser University NTAG seminar
+        year:  Feb 2023
+      - title: Intro to moduli spaces through Grassmannians and Fano schemes
+        institution: SFU gradieNTAG seminar
+        year: Jan 2023
+      - title: Fano schemes of singular symmetric matrices (short talk)
+        institution: Banff International Research Station
+        year:  Dec 2022
+      - title: Toric degenerations of quintic rational space curves
+        institution: Simon Fraser University NTAG seminar
+        year: Jan 2020
+      - title: Toric degenerations of quintic rational space curves (canceled due to visa issues)
+        institution: 2nd Biennial Meeting of SIAM Pacific Northwest Section, Seattle University
+        year: Oct 2019
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - title: Services
+    type: list
+    contents:
+      - Co-organizer of the SFU graduate seminar in algebraic geometry (gradieNTAG), since 2023, Simon Fraser University, Canada
+      - Co-organizer of the 5-minute talk session in the Toric Degenerations workshop, Dec 2022, Banff International Research Station (BIRS), Canada
+      - Organizer, Problem solving workshop (part of Simons Semester), Fall 2018, Banach Center, Warsaw, Poland
+      - Volunteer tutor at Native Education College, Summer 2022, Vancouver, Canada
+      - Tutor, SFU Academics First (tutoring services for athletes), 2022, Canada
+      - Steward in the Teaching Support Staff Union (TSSU), 2019–2023, Canada
+
+  - title: Skills
+    type: list
+    contents:
+      - Programming in C/C++, Java, Macaulay2, Magma, Maple, MATLAB
+
+  - title: Languages
+    type: list
+    contents:
+      - Persian (native), English, French

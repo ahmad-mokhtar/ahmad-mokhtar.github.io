@@ -71,6 +71,9 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: var(--global-theme-color);
   }
 
   .card-item {
@@ -309,6 +312,9 @@ footer.sticky-bottom {
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
+      border: none;
+      margin-top: -3px; /* Prevent double borders */
+
 
       .badge {
         color: var(--global-card-bg-color) !important;
