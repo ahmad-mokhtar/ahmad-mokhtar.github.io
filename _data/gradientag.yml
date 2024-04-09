@@ -14,12 +14,12 @@ headings:
     string: Location
 
 talks:
-  - title: TBD
-    speaker: Pijush Sarmah
+  - title: Number Fields, Absolute Values and Higher Ramification Groups
+    speaker: Pijush Pratim Sarmah
     time: Wed Apr 10 15:45
-    location: TBD
+    location: K9509
     abstract: |
-      TBD
+      In this talk, I will introduce some introductory theorems and facts about number fields and their rings of integers. We will then look at absolute values on number fields. Given a number field \(K\) with a complete discrete non-trivial non-archimedean absolute value and a finite Galois extension \(L/K\) with Galois group \(G\), we will define a filtration \(G \supset G_0 \supset G_1 \supset \dots \) of subgroups of \(G\). The group \(G_0\) is called the inertia group, \(G_1\) the ramification group and the groups \(G_i,\ i>1\) are called the higher ramification groups of \(L\) over \(K\). We will establish some of the basic properties of these groups and what they can tell us about the Galois group \(G\). Time permitting, we will also look at an interesting application of this theory. 
 
   - title: The Chow Ring Classes of \(\mathrm{PGL}_3\) Orbit Closures in \(\mathbb{G}(1,5)\)
     speaker: Dhruv Goel
