@@ -63,6 +63,8 @@ data:
     contents:
       - title: SFU Graduate Dean’s Entrance Scholarship
         year: 2018-2022
+      - title: SFU Ph.D. Research Scholarship
+        year: 2023-2024
 
   - title: Honors
     type: time_table
