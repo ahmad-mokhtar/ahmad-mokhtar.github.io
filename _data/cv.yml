@@ -62,7 +62,7 @@ data:
     type: time_table
     contents:
       - title: SFU Graduate Dean’s Entrance Scholarship
-        year: 2018-2022        
+        year: 2018-2022
 
   - title: Honors
     type: time_table
@@ -104,6 +104,29 @@ data:
       - title: Toric degenerations of quintic rational space curves (canceled due to visa issues)
         institution: 2nd Biennial Meeting of SIAM Pacific Northwest Section, Seattle University
         year: Oct 2019
+
+  - title: Teaching
+    type: nested_list
+    contents:
+      - title: Instructor
+        items:
+          - Calculus 3 (Math 251), Simon Fraser University, 2024
+          - Calculus (Grade 11 and 12), Al Zahra High School, Hormozgan, Iran, 2014-16
+          - Calculus (Grade 11), Im. Hossein High School, Hormozgan, Iran, 2014-16
+          - Geometry (Grade 11), Al Zahra High School, Hormozgan, Iran, 2014-16
+          - Geometry (Grade 10), Im. Hossein High School, Hormozgan, Iran, 2014-16
+          - Algebra & Probability (Grade 11), Al Zahra High School, Hormozgan, Iran, 2014-16
+          - Pre-calculus (Grade 10), Al Zahra High School, Hormozgan, Iran, 2014-16
+          - Pre-calculus (Grade 9 and 10), Im. Hossein High School, Hormozgan, Iran, 2014-16
+      - title: Teaching Assistant
+        items:
+          - Calculus 1, 2 & 3, Fall 2019 - Spring 2024, Simon Fraser University
+          - Complex Variables, Fall 2023, Simon Fraser University
+          - Galois Theory, Spring 2021, Simon Fraser University
+          - Linear Algebra, Fall 2020, Simon Fraser University
+          - Discrete Mathematics, Fall 2020, Simon Fraser University
+          - Commutative Algebra and Algebraic Geometry, Spring 2020, Simon Fraser University
+          - General Topology, Fall 2017, Shiraz University, Iran
 
   - title: Services
     type: list
