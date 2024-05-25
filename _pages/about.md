@@ -23,7 +23,7 @@ talks: true # includes a list of talks
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Algebraic Geometry at Simon Fraser University. I am interested in Fano schemes (which parametrize linear spaces on varieties), toric geometry, toric degenerations and computational algebraic geometry. My Ph.D. advisor is <a href='https://www.sfu.ca/~nilten/'>Nathan Ilten</a>. Here is my full <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">CV</a>.
+I am a Ph.D. student in Algebraic Geometry at Simon Fraser University. I am interested in Fano schemes (which parametrize linear spaces on varieties), toric geometry, toric degenerations and computational algebraic geometry. My Ph.D. advisor is <a href='https://www.sfu.ca/~nilten/'>Nathan Ilten</a>. Here is my full <a href="{{ '/cv/' | relative_url }}">CV</a>.
 
 I am co-organizing the SFU graduate student seminar in number theory and algebraic geometry (<a href="{{ '/gradieNTAG/' | relative_url }}">gradieNTAG</a>) together with <a href='https://sites.google.com/view/sharon-robins'>Sharon Robins</a> and Pijush Sarmah.
 
