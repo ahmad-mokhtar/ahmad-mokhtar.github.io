@@ -1,0 +1,8 @@
+#github_users:
+#  - ahmad-mokhtar
+
+repo_description_lines_max: 2
+
+github_repos:
+  - ahmad-mokhtar/magma-fano-scheme
+  - ahmad-mokhtar/doppler-radar-sim
