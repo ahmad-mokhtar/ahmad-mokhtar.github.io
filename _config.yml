@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ahmad
 middle_name:
 last_name: Mokhtar
-email: ahmad_mokhtar at sfu dot ca
+email: ahmadmokhtar at capilanou dot ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ahmad Mokhtar - Simon Fraser University (SFU)
 footer_text: >

@@ -1,11 +1,14 @@
 person:
-  position: Gradfuate Student and Sessional Instructor
-  affiliation: Simon Fraser University
+  position: Instructor in Mathematics
+  affiliation: Capilano University
 
 data:
   - title: Positions
     type: time_table
     contents:
+      - title: Instructor
+        institution: Capilano University, Canada
+        year: 2024
       - title: Sessional instructor
         institution: Simon Fraser University, Canada
         year: 2024
@@ -16,16 +19,19 @@ data:
     contents:
       - title: Ph.D. in Mathematics
         institution: Simon Fraser University, Canada
-        year: 2020 - current
+        year: 2020 - 2024
         description:
           - "Field: Algebraic Geometry"
+          - |
+             Thesis: Fano schemes of symmetric and alternating matrices of bounded rank
           - "Supervisor: Dr. Nathan Ilten"
       - title: M.Sc. in Mathematics
         institution: Simon Fraser University, Canada
         year: 2018 - 2020
         description:
+          - "Field: Algebraic Geometry"
           - |
-             M.Sc. Thesis: Toric degenerations of rational curves of degree \(n + 2\) in \(\mathbb{P}^n\)
+             Thesis: Toric degenerations of rational curves of degree \(n + 2\) in \(\mathbb{P}^n\)
           - "Supervisor: Dr. Nathan Ilten"
       - title: M.Sc. in Mathematics
         institution:  Shiraz University, Shiraz, Iran
