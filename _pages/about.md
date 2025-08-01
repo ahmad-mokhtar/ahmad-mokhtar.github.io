@@ -6,7 +6,7 @@ subtitle: Instructor, <a href='https://www.capilanou.ca/programs--courses/search
 
 profile:
   align: right
-  image: prof_pic2.png
+  image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Mathematics &amp; Statistics Dept.</p>
