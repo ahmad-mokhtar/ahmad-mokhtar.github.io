@@ -2,20 +2,20 @@
 layout: about
 title: about
 permalink: /
-subtitle: Instructor, <a href='https://www.capilanou.ca/programs--courses/search--select/explore-our-areas-of-study/arts--sciences/school-of-science-technology-engineering--mathematics-stem/mathematics--statistics-department/'>Capilano University</a>
+subtitle: Postdoctoral researcher, <a href='https://ms.unimelb.edu.au/'>The University of Melbourne</a>
 
 profile:
   align: right
   image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Mathematics &amp; Statistics Dept.</p>
-    <p>Capilano University</p>
-    <p>2055 Purcell Way</p>
-    <p>North Vancouver, BC</p>
-    <p>Canada V7J 3H5</p>
-    <p></p>
-    <p><small>ahmadmokhtar<b>at</b>capilanou<b>dot</b>ca</small></p>
+    <p>MACSYS Headquarters</p>
+    <p>Baldwin Spencer Building</p>
+    <p>Floor 1</p>
+    <p>The University of Melbourne</p>
+    <p>Parkville, Victoria, 3010</p>
+    <p>Australia</p>
+    <p><small>ahmad<b>dot</b>mokhtar<b>at</b>unimelb<b>dot</b>edu<b>dot</b>au</small></p>
 
 
 news: false  # includes a list of news items
@@ -24,7 +24,10 @@ talks: true # includes a list of talks
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a mathematics instructor at Capilano University and a sessional instructor at <a href='https://www.sfu.ca/math.html'>Simon Fraser University</a>.
+I am a postdoctoral research fellow at the ARC Centre of Excellence for the Mathematical Analysis of Cellular Systems (<a href='https://macsys.org/'>MACSYS</a>) at the University of Melbourne.
+I am currently working on the analysis of chemical reaction networks using tools from algebraic geometry.
+
+Previously I was a mathematics instructor at Capilano University and a sessional instructor at <a href='https://www.sfu.ca/math.html'>Simon Fraser University</a>.
 
 I received my Ph.D. in Mathematics (Algebraic Geometry) from Simon Fraser University. I am interested in Fano schemes (which parametrize linear spaces on varieties), toric geometry, toric degenerations and computational algebraic geometry. My Ph.D. advisor was <a href='https://www.sfu.ca/~nilten/'>Nathan Ilten</a>. Here is my full <a href="{{ '/cv/' | relative_url }}">CV</a>.
 
