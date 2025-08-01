@@ -24,7 +24,7 @@ talks: true # includes a list of talks
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an instructor in Mathematics at Capilano University and a sessional instructor at <a href='https://www.sfu.ca/math.html'>Simon Fraser University</a>.
+I am a mathematics instructor at Capilano University and a sessional instructor at <a href='https://www.sfu.ca/math.html'>Simon Fraser University</a>.
 
 I received my Ph.D. in Mathematics (Algebraic Geometry) from Simon Fraser University. I am interested in Fano schemes (which parametrize linear spaces on varieties), toric geometry, toric degenerations and computational algebraic geometry. My Ph.D. advisor was <a href='https://www.sfu.ca/~nilten/'>Nathan Ilten</a>. Here is my full <a href="{{ '/cv/' | relative_url }}">CV</a>.
 
