@@ -79,9 +79,9 @@ data:
   - title: Honors
     type: time_table
     contents:
-      - title: The certificate “With Distinction” for Ph.D. thesis, Simon Fraser University
+      - title: The certificate “<a href="https://www.sfu.ca/math/graduate/current/thesis-defence.html">With Distinction</a>” for Ph.D. thesis, Simon Fraser University
         year: 2024
-      - title: The certificate “With Distinction” for Master’s thesis, Simon Fraser University
+      - title: The certificate “<a href="https://www.sfu.ca/math/graduate/current/thesis-defence.html">With Distinction</a>” for Master’s thesis, Simon Fraser University
         year: 2020
       - title: First rank in GPA in M.Sc. among co-entry students, Shiraz University
         year: 2018
