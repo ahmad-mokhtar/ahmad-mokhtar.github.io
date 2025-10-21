@@ -18,7 +18,7 @@ profile:
     <p><small>ahmad<b>dot</b>mokhtar<b>at</b>unimelb<b>dot</b>edu<b>dot</b>au</small></p>
 
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 talks: true # includes a list of talks
 social: true  # includes social icons at the bottom of the page

@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 customized_title: Curriculum Vitae
 nav: true
-nav_order: 7
+nav_order: 8
 cv_pdf: cv.pdf
 description:
 custom_header: true
