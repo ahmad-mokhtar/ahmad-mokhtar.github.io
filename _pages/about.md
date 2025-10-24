@@ -11,7 +11,7 @@ profile:
   address: >
     <p>MACSYS Headquarters</p>
     <p>Baldwin Spencer Building</p>
-    <p>Floor 1</p>
+    <p>Room 125</p>
     <p>The University of Melbourne</p>
     <p>Parkville, Victoria, 3010</p>
     <p>Australia</p>
