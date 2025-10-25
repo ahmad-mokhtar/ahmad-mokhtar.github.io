@@ -6,7 +6,7 @@ subtitle: Postdoctoral researcher, <a href='https://ms.unimelb.edu.au/'>The Univ
 
 profile:
   align: right
-  image: prof_pic3.jpg
+  image: prof-pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>MACSYS Headquarters</p>
